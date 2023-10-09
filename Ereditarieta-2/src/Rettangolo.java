@@ -1,7 +1,13 @@
 public class Rettangolo extends Forma{
-    @Override
-    public double calcolaArea(double base, double altezza){
+    private double base;
+    private double altezza;
 
+    public Rettangolo(double base, double altezza){
+        this.base = base;
+        this.altezza = altezza;
+    }
+    @Override
+    public double calcolaArea(){
         return base*altezza;
     }
 }

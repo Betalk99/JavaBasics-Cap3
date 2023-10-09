@@ -2,10 +2,9 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Forma forma = new Forma();
-        Rettangolo rett = new Rettangolo();
+        Rettangolo rett = new Rettangolo(5,3);
 
-        System.out.println("Area del triangolo è: " + rett.calcolaArea(5,3));
+        System.out.println("Area del triangolo è: " + rett.calcolaArea());
 
 
     }
