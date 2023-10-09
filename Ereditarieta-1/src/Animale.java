@@ -1,5 +1,5 @@
 public class Animale {
     public void faiIlVerso() {
-        System.out.println("BauBua");
+        System.out.println("Animale");
     }
 }
